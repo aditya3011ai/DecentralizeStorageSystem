@@ -2,6 +2,8 @@
 
 visit :- https://decentralize-storage-system.netlify.app/
 
+smart Contract:- https://github.com/aditya3011ai/DecentralizestorageSystemContract
+
 First install the git repo and in command line run:-
 
 ### `npm install`
