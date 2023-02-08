@@ -5,7 +5,7 @@ import { useState } from "react";
 
 const FileUpload = ({ account, provider, contract }) => {
   const [file, setFile] = useState(null);
-  const [fileName, setFileName] = useState("No Image Selected");
+  const [fileName, setFileName] = useState("No File Selected");
   const [fileType, setFileType] = useState("Not Supported");
   const [fileSize, setFileSize] = useState("0");
 
@@ -31,7 +31,7 @@ const FileUpload = ({ account, provider, contract }) => {
         const signer = contract.connect(provider.getSigner());
         signer.add(account,ImgHash, fileName,fileType,fileSize.toString());
       } catch (e) {
-        setFileName("No image selected");
+        setFileName("No File selected");
         setFile(null);
         console.log(e);
         return alert("Unable to upload image to Pinata");
