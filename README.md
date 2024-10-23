@@ -1,6 +1,6 @@
 # Decentralized Storage System
 
-![]()
+![](dcloud.png)
 
 #Demo :- https://decentralize-storage-system.netlify.app/
 
