@@ -1,8 +1,10 @@
-# Demo site
+# Decentralized Storage System
 
-visit :- https://decentralize-storage-system.netlify.app/
+![]()
 
-smart Contract:- https://github.com/aditya3011ai/DecentralizestorageSystemContract
+#Demo :- https://decentralize-storage-system.netlify.app/
+
+#smart Contract:- https://github.com/aditya3011ai/DecentralizestorageSystemContract
 
 First install the git repo and in command line run:-
 
